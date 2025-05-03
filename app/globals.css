@@ -1,4 +1,5 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -21,6 +22,7 @@ body {
   /* 4. Add accessible line-height */
   line-height: 1.5;
   background-color: #000;
+  color: #fff;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
 }

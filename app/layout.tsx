@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import {PageLayout} from "../components/pageLayout";
 import "./globals.css";
+
 
 
 
@@ -18,7 +20,9 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        {children}
+      <PageLayout>
+          {children}
+      </PageLayout>
       </body>
     </html>
   );
