@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import {PageLayout} from "../components/pageLayout";
 import "./globals.css";
+import GlobalCursorFollow from "../components/cursor";
+import React from "react";
 
 
 
@@ -20,6 +22,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+      <GlobalCursorFollow/>
       <PageLayout>
           {children}
       </PageLayout>
