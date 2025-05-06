@@ -39,6 +39,8 @@ const GlobalCursor: React.FC = () => {
         };
     }, []);
 
+    console.log(size)
+
     return (
         <div
             style={{
